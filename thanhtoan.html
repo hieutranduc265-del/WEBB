@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán đơn hàng - HGT STORE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="logo-top-box">
+        <div class="logo">
+            <a href="index.html" class="logo-link">HGT STORE</a>
+        </div>
+    </div>
+
+    <div class="thanhtoan-container">
+
+        <div class="tt-left">
+            <div class="account-section">
+                <div class="acc-info">
+                    <div class="avatar">DH</div>
+                    <div class="acc-text">
+                        <p class="acc-name">Trần Đức Hiếu</p>
+                        <p class="acc-email">hieutranduc2k5@gmail.com</p>
+                        <span class="points-badge"><i class="fa-solid fa-circle-dot"></i> 0 điểm</span>
+                    </div>
+                </div>
+                <a href="#" class="logout-link">Đăng xuất</a>
+            </div>
+
+            <div class="section-box">
+                <h2 class="section-title">Thông tin giao hàng</h2>
+                <input type="text" value="" placeholder="Họ và tên" class="tt-input">
+                <input type="tel" placeholder="Nhập số điện thoại" class="tt-input">
+                <select class="tt-input">
+                    <option>Việt Nam</option>
+                </select>
+                <input type="text" placeholder="Địa chỉ, tên đường" class="tt-input">
+                <input type="text" placeholder="Tỉnh/TP, Quận/Huyện, Phường/Xã" class="tt-input">
+            </div>
+
+            <div class="section-box">
+                <h2 class="section-title">Phương thức giao hàng</h2>
+                <div class="empty-notice-box">
+                    Nhập địa chỉ để xem các phương thức giao hàng
+                </div>
+            </div>
+
+            <div class="section-box">
+                <h2 class="section-title">Phương thức thanh toán</h2>
+                <div class="payment-methods">
+                    <label class="payment-item active">
+                        <input type="radio" name="pay" checked>
+                        <div class="pay-icon-box"><i class="fa-solid fa-truck-fast"></i></div>
+                        <span>Thanh toán khi giao hàng (COD)</span>
+                    </label>
+                    <label class="payment-item">
+                        <input type="radio" name="pay">
+                        <div class="pay-icon-box"><i class="fa-solid fa-qrcode"></i></div>
+                        <span>Chuyển khoản qua QR -BANK</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="section-box">
+                <textarea class="tt-textarea" placeholder="Ghi chú đơn hàng"></textarea>
+            </div>
+        </div>
+
+        <div class="tt-right">
+            <div class="order-summary-box">
+                <h2 class="section-title">Giỏ hàng</h2>
+
+                <div class="cart-item-tt">
+                    <div class="item-img-tt">
+                        <img src="images/anh2.jpg" alt="product">
+                    </div>
+                    <div class="item-info-tt">
+                        <div class="item-header-row">
+                            <p class="item-name">Áo Polo Nam - COLOR BLOCK LINE POLO - SEAFOAM - 88540 - Xanh Vỏ Đậu -
+                                Big size upto 5XL</p>
+                            <i class="fa-regular fa-trash-can btn-delete"></i>
+                        </div>
+                        <div class="variant-tag">SEAFOAM / M <i class="fa-solid fa-chevron-right"></i></div>
+                        <div class="item-bottom-row">
+                            <div class="price-group">
+                                <span class="old-price">375,000đ</span>
+                                <span class="new-price">195,000đ</span>
+                            </div>
+                            <div class="qty-control">
+                                <button>-</button>
+                                <input type="text" value="1">
+                                <button>+</button>
+                            </div>
+                        </div>
+                        <p class="discount-small">Bạn đã được giảm <span>180,000đ</span> <i
+                                class="fa-solid fa-chevron-down"></i></p>
+                    </div>
+                </div>
+
+                <div class="promo-section">
+                    <h2 class="section-title">Mã khuyến mãi</h2>
+                    <div class="promo-select">
+                        <i class="fa-solid fa-ticket"></i> Chọn mã <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div class="promo-input-group">
+                        <input type="text" placeholder="Nhập mã khuyến mãi">
+                        <button>Áp dụng</button>
+                    </div>
+                </div>
+
+                <div class="reward-section">
+                    <h2 class="section-title">Điểm thưởng</h2>
+                    <div class="reward-toggle-box">
+                        <div class="reward-left">
+                            <i class="fa-solid fa-circle-dot orange-icon"></i> Chưa đủ điều kiện dùng điểm
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox" disabled>
+                            <span class="slider-round"></span>
+                        </label>
+                    </div>
+                    <p class="reward-subtext">Bạn không có điểm thưởng hoặc giá trị đơn hàng chưa đạt điều kiện để sử
+                        dụng</p>
+                </div>
+
+                <div class="calc-final-section">
+                    <h2 class="section-title">Tóm tắt đơn hàng</h2>
+                    <div class="calc-row"><span>Tổng tiền hàng</span><span>195,000đ</span></div>
+                    <div class="calc-row"><span>Phí vận chuyển</span><span>-</span></div>
+                    <div class="calc-row total-big"><span>Tổng thanh toán</span><span>195,000đ</span></div>
+                    <div class="calc-row reward-row"><span>Điểm nhận được</span><span><i
+                                class="fa-solid fa-circle-dot"></i> 1 điểm</span></div>
+
+                    <div class="member-info-box">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        Chi tiêu tối thiểu 100,000đ để thăng hạng Member và nhận những ưu đãi đặc quyền khác
+                    </div>
+                    <button class="btn-submit-order">Đặt hàng</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>

@@ -11,6 +11,53 @@
 
 <body>
 
+    <div id="search-overlay" class="search-overlay">
+        <div class="search-container">
+            <div class="search-logo">HGT STORE</div>
+
+            <div class="search-center-group">
+                <div class="search-input-wrapper">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-xmark close-search" id="close-search"></i>
+                </div>
+
+                <div class="search-suggestions">
+                    <span>Gợi ý cho bạn: </span>
+                    <a href="#">QUẦN TÂY</a>,
+                    <a href="#">QUẦN KAKI</a>,
+                    <a href="#">QUẦN JEANS</a>,
+                    <a href="#">QUẦN SHORT</a>
+                </div>
+            </div>
+
+            <div class="search-empty-space"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- TOP BAR -->
 
@@ -117,9 +164,9 @@
 
 
         <div class="icons">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass" id="open-search" style="cursor: pointer;"></i>
             <a href="auth.html" style="color: inherit;"><i class="fa-solid fa-user"></i></a>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="giohang.html" style="color: inherit;"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
 
     </header>
@@ -379,7 +426,7 @@
 
 
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>

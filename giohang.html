@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng của bạn - HGT STORE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="search-overlay" class="search-overlay">
+        <div class="search-container">
+            <div class="search-logo">HGT STORE</div>
+
+            <div class="search-center-group">
+                <div class="search-input-wrapper">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-xmark close-search" id="close-search"></i>
+                </div>
+
+                <div class="search-suggestions">
+                    <span>Gợi ý cho bạn: </span>
+                    <a href="#">QUẦN TÂY</a>,
+                    <a href="#">QUẦN KAKI</a>,
+                    <a href="#">QUẦN JEANS</a>,
+                    <a href="#">QUẦN SHORT</a>
+                </div>
+            </div>
+
+            <div class="search-empty-space"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- TOP BAR -->
+
+    <div class="top-bar">
+
+    </div>
+
+
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none; color: inherit;">HGT STORE</a>
+        </div>
+
+
+        <nav class="menu">
+
+            <a href="index.html">TRANG CHỦ</a>
+
+            <div class="dropdown">
+
+                <a href="khuyenmai.html">KHUYẾN MÃI</a>
+
+                <div class="dropdown-menu">
+
+                    <a href="donggia195.html">Đồng giá 195K</a>
+                    <a href="mua1tang1.html">Mua 1 tặng 1</a>
+                    <a href="dealtrainghiem.html">Deal trải nghiệm</a>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="dropdown">
+                <a href="Collection.htm">COLLECTION</a>
+                <div class="dropdown-menu">
+                    <a href="#">Summer Collection</a>
+                    <a href="#">Tết Collection</a>
+                    <a href="#">Travellers Selection</a>
+                    <a href="#">Coming Soon</a>
+                </div>
+            </div>
+
+
+
+
+            <div class="dropdown">
+                <a href="#">ÁO</a>
+                <div class="dropdown-menu">
+                    <a href="#">Mục 1</a>
+                    <a href="#">Mục 2</a>
+                    <a href="#">Mục 3</a>
+                    <a href="#">Mục 4</a>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="dropdown">
+                <a href="#">QUẦN</a>
+                <div class="dropdown-menu">
+                    <a href="#">Mục 1</a>
+                    <a href="#">Mục 2</a>
+                    <a href="#">Mục 3</a>
+                    <a href="#">Mục 4</a>
+                    <a href="#">Mục 5</a>
+                    <a href="#">Mục 6</a>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="dropdown">
+                <a href="#">PHỤ KIỆN</a>
+                <div class="dropdown-menu">
+                    <a href="#">Mục 1</a>
+                    <a href="#">Mục 2</a>
+                    <a href="#">Mục 3</a>
+                    <a href="#">Mục 4</a>
+                    <a href="#">Mục 5</a>
+                    <a href="#">Mục 6</a>
+                </div>
+            </div>
+
+
+
+
+
+
+            <a href="New.html">NEW</a>
+            <a href="about.html">ABOUT</a>
+
+        </nav>
+
+
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass" id="open-search" style="cursor: pointer;"></i>
+            <a href="auth.html" style="color: inherit;"><i class="fa-solid fa-user"></i></a>
+            <a href="giohang.html" style="color: inherit;"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
+    </header>
+
+
+    <main class="cart-wrapper">
+        <div class="cart-container">
+
+            <div class="cart-left">
+                <div class="cart-header">
+                    <h1>Giỏ hàng của bạn</h1>
+                    <span>Bạn đang có <strong>1 sản phẩm</strong> trong giỏ hàng</span>
+                </div>
+
+                <div class="shipping-notice">
+                    <p>Bạn cần mua thêm <strong>805,000đ</strong> để được <strong>MIỄN PHÍ VẬN CHUYỂN</strong></p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 20%;"></div>
+                        <div class="progress-icon" style="left: 20%;"><i class="fa-solid fa-truck"></i></div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <div class="item-remove">Xóa</div>
+                    <div class="item-content">
+                        <img src="images/anh1.jpg" alt="product">
+                        <div class="item-details">
+                            <h3>Áo Polo Nam - COLOR BLOCK LINE POLO - SEAFOAM - 88540 - Xanh Vỏ Đậu</h3>
+                            <p class="variant">SEAFOAM / M</p>
+                            <p class="item-price-small">195,000đ</p>
+                        </div>
+                        <div class="item-right">
+                            <span class="item-total-price">195,000đ</span>
+                            <div class="qty-selector">
+                                <button>-</button>
+                                <input type="text" value="1">
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-note">
+                    <label>Ghi chú đơn hàng</label>
+                    <textarea placeholder="Ghi chú"></textarea>
+                </div>
+            </div>
+
+            <div class="cart-right">
+                <div class="order-info-box">
+                    <h2>Thông tin đơn hàng</h2>
+                    <div class="total-row">
+                        <span>Tổng tiền:</span>
+                        <span class="final-price">195,000đ</span>
+                    </div>
+                    <ul class="info-notes">
+                        <li>Phí vận chuyển sẽ được tính ở trang thanh toán.</li>
+                        <li>Bạn cũng có thể nhập mã giảm giá ở trang thanh toán.</li>
+                    </ul>
+                    <a href="thanhtoan.html" class="btn-checkout">THANH TOÁN</a>
+                </div>
+
+                <div class="policy-box">
+                    <h3>Chính sách mua hàng:</h3>
+                    <p>Hiện chúng tôi chỉ áp dụng thanh toán với đơn hàng có giá trị tối thiểu <strong>0đ</strong> trở
+                        lên.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
